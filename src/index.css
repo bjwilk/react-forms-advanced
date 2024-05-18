@@ -82,3 +82,13 @@
     display: flex;
     justify-content: center;
   }
+
+  .form-data-wrapper {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+
+  .question-container {
+    margin-bottom: 20px; /* Adjust the value as needed */
+  }
