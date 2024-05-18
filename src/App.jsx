@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import Navigation from './components/Navigation';
 import Home from "./components/Home";
 import Survey from "./components/Survey";
+import Form from "./components/Form";
 
 
 const router = createBrowserRouter([
@@ -27,6 +28,14 @@ const router = createBrowserRouter([
     <>
     <Layout />
     <Survey />
+    </>
+  },
+  {
+    path: "/form",
+    element: 
+    <>
+    <Layout />
+    <Form />
     </>
   }
 ])
